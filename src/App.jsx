@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import ContactUs from './components/ContactUs';
 import AboutUs from './components/About';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light'); // default to light theme or from localStorage
