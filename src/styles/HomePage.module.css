@@ -6,7 +6,7 @@
 
 /* Header Section */
 .header {
-  background-image: url('photos/pic6.jpg'); /* Example header image */
+  background-image: url('https://img.freepik.com/free-vector/young-woman-read-book-public-library-night_107791-27402.jpg?t=st=1732351934~exp=1732355534~hmac=11f65a91f25846bbc7bcef3d473b5cd8a5fa8f1726fd4d1bba0f143abb8a47e9&w=1380'); /* Example header image */
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
