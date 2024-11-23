@@ -1,0 +1,80 @@
+/* navbar.module.css */
+
+/* General Navbar Styles */
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #fff; /* Light background color for the navbar */
+  padding: 0.5rem 1rem; /* Padding for spacing */
+  font-family: 'Roboto', sans-serif; /* Custom font family */
+  font-weight: 500; /* Font weight for the navbar items */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.navbar .logo {
+  font-size: 1.8rem; /* Logo size */
+  font-weight: 700; /* Bold font for logo */
+  color: #007bff; /* Blue color for the logo */
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #333; /* Text color for links */
+  padding: 10px 20px; /* Padding for links */
+  font-size: 1rem; /* Font size for links */
+  text-transform: uppercase; /* Uppercase text for navigation items */
+  font-weight: 600; /* Font weight for the links */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Mobile responsiveness: Navbar collapses into a dropdown */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: left; /* Align text to the left on smaller screens for better readability */
+  }
+
+  .navbar-toggler-icon {
+    background-color: #007bff; /* Custom background for the hamburger menu */
+  }
+
+  .navbar-toggler {
+    border: none; /* Remove border from the toggler */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.2rem; /* Increase font size for better readability on mobile */
+    padding: 12px 16px; /* Increase padding on mobile */
+  }
+
+  .navbar-collapse {
+    margin-top: 10px; /* Add margin to prevent crowding */
+  }
+}
+
+/* Larger screen: Navbar should be more spaced out */
+@media (min-width: 992px) {
+  .navbar-nav .nav-link {
+    padding: 10px 25px; /* Larger padding for desktop */
+    font-size: 1.1rem; /* Slightly larger font for desktop */
+  }
+}
+
+/* src/styles/Navbar.module.css */
+.navbar {
+  background-color: #fff;
+  /* Add default light theme styles */
+}
+
+.navbar-dark {
+  background-color: #333;
+  /* Add dark theme styles for the navbar */
+}
+
+.themeButton {
+  margin-left: 20px;
+}

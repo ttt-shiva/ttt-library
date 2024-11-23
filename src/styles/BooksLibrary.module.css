@@ -1,0 +1,117 @@
+/* src/styles/BooksLibrary.module.css */
+.libraryContainer {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #007bff;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.bookCard {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bookCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure the card takes the full available height */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.cardContent {
+  padding: 15px;
+  flex-grow: 1; /* This ensures the content area grows to fill available space */
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.cardAuthor {
+  font-size: 1rem;
+  color: #555;
+}
+
+.cardDescription {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 10px;
+  flex-grow: 1; /* Ensure the description has flexible height */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit the description to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .cardContainer {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+/* src/styles/BooksLibrary.module.css */
+.headerContainer {
+  display: flex;
+  justify-content: space-between; /* Distribute space between heading and search */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Optional, for spacing between header and book cards */
+}
+
+.searchContainer {
+  flex: 1;
+  max-width: 300px;
+  text-align: right; /* Align the search input to the right */
+}
+
+.searchInput {
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #007bff;
+}
+

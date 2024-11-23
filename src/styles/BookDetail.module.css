@@ -1,0 +1,164 @@
+/* src/styles/BookDetail.module.css */
+.bookDetail {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .backButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .backButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .bookInfo {
+    display: flex;
+    gap: 30px;
+    animation: fadeIn 1s ease-out;
+    padding: 20px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .bookImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .bookImage:hover {
+    transform: scale(1.05);
+  }
+  
+  .textContent {
+    flex: 2;
+    max-width: 800px;
+  }
+  
+  .bookTitle {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .bookTitle:hover {
+    color: #007bff;
+  }
+  
+  .bookAuthor {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .bookDescription {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .bookDescription:hover {
+    max-height: none;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pageButton {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pageButton:hover {
+    background-color: #218838;
+  }
+  
+  .pageButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pageInfo {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .bookInfo {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .imageContainer {
+      max-width: 100%;
+    }
+  
+    .bookImage {
+      width: 100%;
+    }
+  
+    .textContent {
+      max-width: 100%;
+    }
+  }
+  
+  /* BookDetail.module.css */
+
+.wishlistButtons {
+  margin-top: 20px;
+}
+
+.wishlistButton {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wishlistButton:hover {
+  background-color: #218838;
+}

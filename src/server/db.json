@@ -1,0 +1,215 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A classic novel set in the Jazz Age, exploring the American dream through the life of Jay Gatsby and his obsession with Daisy Buchanan. A tale of love, loss, and the corrupting influence of wealth.",
+      "image": "https://img.freepik.com/free-photo/nature-beauty-reflected-tranquil-water-scene-generative-ai_188544-12648.jpg?t=st=1732345567~exp=1732349167~hmac=57707e0b26ea3c81990780f3ca4d7231debb10fed1ee616aeb571d8eb84f5bb0&w=1060"
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian social science fiction novel and cautionary tale. Set in a totalitarian society controlled by Big Brother, the story follows Winston Smith as he navigates a world of surveillance, propaganda, and oppression.",
+      "image": "https://img.freepik.com/free-photo/blending-futuristic-building-seamlessly-into-desert-landscape_23-2151248369.jpg?t=st=1732345853~exp=1732349453~hmac=c4f2778a8c231be420bbb01ee987c56ffc2e1f7ead5172e8943722744e7fe158&w=360"
+    },
+    {
+      "id": "3",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A novel set in the deep South during the 1930s, where a young girl, Scout Finch, learns about racism and justice as her father, Atticus Finch, defends a black man wrongly accused of raping a white woman.",
+      "image": "https://img.freepik.com/free-vector/watercolor-winter-solstice-background_23-2149205176.jpg?t=st=1732345899~exp=1732349499~hmac=b53cc40337af1858dac4806a5f7d5d9315ab4ad8a694fa9c881b59b375ad3b61&w=996"
+    },
+    {
+      "id": "4",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "description": "The saga of Captain Ahab’s obsessive quest to kill the white whale, Moby Dick. A journey of madness, revenge, and the consequences of man’s relentless pursuit of his goals, set against the vast backdrop of the open sea.",
+      "image": "https://img.freepik.com/free-photo/futuristic-half-robot-tiger_23-2151558829.jpg?t=st=1732345954~exp=1732349554~hmac=43a17b249f01fd1db9c98afb06dd55dc7d035e47bacc14087405517523c9d910&w=1380"
+    },
+    {
+      "id": "5",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "description": "Set during the Napoleonic wars, this epic historical novel explores the lives of several aristocratic families in Russia. With its deep philosophical reflections on history, war, and personal responsibility, the novel weaves together romance, politics, and war.",
+      "image": "https://img.freepik.com/free-photo/apocalyptic-war-zone-landscape-with-destruction_23-2150985609.jpg?t=st=1732346007~exp=1732349607~hmac=f76f50c0bcc7529c1b2a665af8bfd1dd7c312221d75f72daee59041512cb203e&w=996"
+    },
+    {
+      "id": "6",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A classic romance novel about the life of Elizabeth Bennet, her family’s social struggles, and her evolving relationship with the aloof but honorable Mr. Darcy. Themes of love, marriage, and societal expectations permeate this witty and insightful tale.",
+      "image": "https://img.freepik.com/free-psd/gay-prinde-concepts-square-flyer-template_23-2148606960.jpg?t=st=1732346137~exp=1732349737~hmac=ccf0ac28d47d31fd04543ec25e8a7e250bac79d0010556c8533509ceb234d2e4&w=740"
+    },
+    {
+      "id": "7",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "The story of Holden Caulfield, a disillusioned teenager who has just been expelled from his prep school and is wandering New York City in search of meaning and purpose. A narrative of teenage angst, rebellion, and the loss of innocence.",
+      "image": "https://img.freepik.com/free-vector/beautiful-green-landscape-background_1048-2991.jpg?t=st=1732346474~exp=1732350074~hmac=5b7a9239e264bcb09072e1969e5e6fe8359528ed7c460769aff605342e427d84&w=740"
+    },
+    {
+      "id": "8",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": "Bilbo Baggins, a hobbit of the Shire, embarks on an unexpected adventure with a group of dwarves to reclaim their treasure from the dragon Smaug. Along the way, Bilbo encounters trolls, goblins, elves, and other mythical creatures, changing him forever.",
+      "image": "https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg?t=st=1732346472~exp=1732350072~hmac=9a08b0ab3dd9c5cd6ed5ce862ccd08c30ddf678af9ae2f31d281c58c4861093e&w=996"
+    },
+    {
+      "id": "9",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "description": "In this philosophical novel, three brothers — Dmitri, Ivan, and Alexei — each embody different aspects of human nature. Through their complex relationships with their father and with one another, the novel delves into questions of morality, faith, and existentialism.",
+      "image": "https://img.freepik.com/free-photo/portrait-siblings-outdoors-brothers-day-celebration_23-2150266816.jpg?t=st=1732346566~exp=1732350166~hmac=26517ca47315f4c3e2db03e7437e31201b3d25774136fe075363a31df9dea950&w=360"
+    },
+    {
+      "id": "10",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "description": "Victor Frankenstein, a young scientist, creates a living being from body parts and is horrified by the result. The monster, rejected by society, embarks on a journey to find understanding and revenge, exploring themes of creation, responsibility, and isolation.",
+      "image": "https://img.freepik.com/free-photo/backpacker-standing-sunrise-viewpoint-ja-bo-village-mae-hong-son-province-thailand_335224-1356.jpg?t=st=1732346659~exp=1732350259~hmac=ad059f0f5856c30dd2afdb46c134e77f151e54670c7ff3ae4ba88a0be9d3ad78&w=996"
+    },
+    {
+      "id": "11",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "In a future society where everyone is conditioned from birth to be happy through consumption and conformity, Bernard Marx begins to question the values of the world around him. A dark satire on the dangers of totalitarianism and the loss of individuality.",
+      "image": "https://img.freepik.com/free-photo/photographer-hand-holding-camera-standing-top-rock-nature-travel-concept-vintage-tone_335224-897.jpg?t=st=1732346695~exp=1732350295~hmac=ca3fd17004ee3632a20bdc8baa02342d3b6083ae0d86f7375d8b79f685d2d744&w=996"
+    },
+    {
+      "id": "12",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "description": "The story of an orphaned girl who grows up to become a governess at Thornfield Hall, where she meets the mysterious and brooding Mr. Rochester. A tale of love, self-respect, and overcoming personal and societal obstacles in Victorian England.",
+      "image": "https://img.freepik.com/free-photo/portrait-female-hiker_23-2147842611.jpg?t=st=1732346756~exp=1732350356~hmac=79714c8fa4c7695e5e0d110316d53ccbfca34d10f78d4550a8b6ac6186b512d2&w=996"
+    },
+    {
+      "id": "13",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "description": "Dorian Gray, a handsome young man, makes a wish that his portrait will age while he remains forever youthful. As he embarks on a life of excess and corruption, the portrait reveals the consequences of his actions, exploring themes of vanity, morality, and decadence.",
+      "image": "https://img.freepik.com/free-photo/young-guy-invites-you-come-inside_140725-36636.jpg?t=st=1732346840~exp=1732350440~hmac=5c6894e1a737547b679134486a58a11e9abad693ef3b5dc7e9373c3857fc5ca8&w=996"
+    },
+    {
+      "id": "14",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "description": "Odysseus, king of Ithaca, embarks on a long and perilous journey home after the Trojan War. Along the way, he encounters monsters, gods, and temptations. This epic poem reflects on the values of heroism, loyalty, and the enduring struggle of human existence.",
+      "image": "https://img.freepik.com/free-photo/cruel-war-scenes-digital-painting_456031-162.jpg?t=st=1732346889~exp=1732350489~hmac=fc85aa03017f24530a537c53c958ca70e1ca46bbe7c644f97b65498532910f37&w=1380"
+    },
+    {
+      "id": "15",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "description": "Dante’s allegorical journey through Hell, Purgatory, and Heaven, guided by the Roman poet Virgil and his beloved Beatrice. A work of profound philosophical and theological significance, exploring the human soul’s journey toward redemption.",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-couple-holi-festival-background_23-2148056915.jpg?t=st=1732346980~exp=1732350580~hmac=d91531bfda869d7b4e65f534a67c203f04bf9d5f61083b22a33d46429611e2b3&w=740"
+    },
+    {
+      "id": "16",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "description": "A passionate and tragic story of love between Heathcliff and Catherine Earnshaw, whose tumultuous relationship wreaks havoc on the lives of everyone around them. Set against the isolated moors of England, it explores themes of revenge, obsession, and the destructive power of love.",
+      "image": "https://img.freepik.com/free-photo/side-view-couple-silhouettes-posing-with-sky-background_23-2150153203.jpg?t=st=1732346653~exp=1732350253~hmac=70791b57a56342f577e9cb7d3b8f76d1e59c6c8c0a657cb93e31d841338dff64&w=996"
+    },
+    {
+      "id": "17",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "description": "The tale of Count Dracula’s attempt to move from Transylvania to England so he may spread the undead curse. The novel tells the story of his confrontation with a group of people, including Jonathan Harker, Mina Murray, and Professor Van Helsing, who try to stop his evil deeds.",
+      "image": "https://img.freepik.com/free-photo/dark-fantasy-scene_23-2151136160.jpg?t=st=1732347098~exp=1732350698~hmac=2551fc8c56dd3cd70cba70eb1dce6e573fe71549aa584917761b6b94e368bcdd&w=360"
+    },
+    {
+      "id": "18",
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "description": "A satirical novel set during World War II, the story follows Captain John Yossarian and his fellow soldiers who try to survive the madness of war. The novel introduces the concept of the “Catch-22,” a paradoxical rule that prevents anyone from opting out of dangerous missions.",
+      "image": "https://img.freepik.com/free-photo/war-conflict-landscape-with-soldiers-fighting_23-2149766327.jpg?t=st=1732347161~exp=1732350761~hmac=28a2e03da87c3fcf117e4b047d7552939413f33273d58959a8a84188fbed76fe&w=996"
+    },
+    {
+      "id": "19",
+      "title": "The Shining",
+      "author": "Stephen King",
+      "description": "Jack Torrance, a struggling writer, takes a job as the winter caretaker of the Overlook Hotel, a remote mountain resort. When the hotel’s supernatural forces begin to take hold of Jack, his family must fight for their lives. A chilling psychological horror novel.",
+      "image": "https://img.freepik.com/free-photo/portrait-king-medieval-times_23-2150931953.jpg?t=st=1732347201~exp=1732350801~hmac=cbc360b3d067b43c999a35cf86936d9366f4490f7b5ac7dc1975645fffc2e990&w=996"
+    },
+    {
+      "id": "20",
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "description": "Set after the American Civil War, this novel follows Sethe, an escaped slave, who is haunted by the ghost of her dead child. A powerful exploration of the effects of slavery on the lives of individuals and families, as well as the meaning of home and belonging.",
+      "image": "https://img.freepik.com/free-photo/army-soldiers-fighting-with-guns-defending-their-country_1303-26697.jpg?t=st=1732347248~exp=1732350848~hmac=5d67d18fb439cb0c33c9449c95851daad4220e0ffbc67bff653ea6db5e275f4b&w=996"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "17",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "description": "The tale of Count Dracula’s attempt to move from Transylvania to England so he may spread the undead curse. The novel tells the story of his confrontation with a group of people, including Jonathan Harker, Mina Murray, and Professor Van Helsing, who try to stop his evil deeds.",
+      "image": "https://img.freepik.com/free-photo/dark-fantasy-scene_23-2151136160.jpg?t=st=1732347098~exp=1732350698~hmac=2551fc8c56dd3cd70cba70eb1dce6e573fe71549aa584917761b6b94e368bcdd&w=360"
+    },
+    {
+      "id": "5",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "description": "Set during the Napoleonic wars, this epic historical novel explores the lives of several aristocratic families in Russia. With its deep philosophical reflections on history, war, and personal responsibility, the novel weaves together romance, politics, and war.",
+      "image": "https://img.freepik.com/free-photo/apocalyptic-war-zone-landscape-with-destruction_23-2150985609.jpg?t=st=1732346007~exp=1732349607~hmac=f76f50c0bcc7529c1b2a665af8bfd1dd7c312221d75f72daee59041512cb203e&w=996"
+    },
+    {
+      "id": "3",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A novel set in the deep South during the 1930s, where a young girl, Scout Finch, learns about racism and justice as her father, Atticus Finch, defends a black man wrongly accused of raping a white woman.",
+      "image": "https://img.freepik.com/free-vector/watercolor-winter-solstice-background_23-2149205176.jpg?t=st=1732345899~exp=1732349499~hmac=b53cc40337af1858dac4806a5f7d5d9315ab4ad8a694fa9c881b59b375ad3b61&w=996"
+    }
+  ],
+  "notes": [
+    {
+      "id": "2024-11-22T14:22:45.432Z",
+      "text": "This is a note about an important section in the book."
+    },
+    {
+      "id": "2024-11-22T14:30:50.123Z",
+      "text": "Here is another note explaining a concept."
+    },
+    {
+      "id": "2024-11-22T09:34:33.461Z",
+      "text": "i am good at this"
+    },
+    {
+      "id": "2024-11-22T13:01:45.011Z",
+      "text": "hgvkjvi"
+    },
+    {
+      "id": "2024-11-22T13:03:51.045Z",
+      "text": "6v08no"
+    },
+    {
+      "id": "2024-11-22T16:11:20.671Z",
+      "text": "xccmckhcgkykyck"
+    }
+  ],
+  "settings": [
+    {
+      "theme": "light",
+      "fontSize": 16,
+      "layout": "single",
+      "id": "1"
+    }
+  ],
+  "contact": [
+    {
+      "id": "2194",
+      "name": "shiva",
+      "email": "pallasaireddy@gmail.com",
+      "message": "i want to book"
+    },
+    {
+      "id": "6787",
+      "name": "shiva",
+      "email": "pallasaireddy@gmail.com",
+      "message": "sxcvb"
+    }
+  ]
+}

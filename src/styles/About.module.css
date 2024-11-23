@@ -1,0 +1,157 @@
+/* General Styles */
+.aboutUsPage {
+    padding: 30px 0;
+    background-color: #f4f4f4;
+    width: 100%;
+  }
+  
+  /* Introduction Section */
+  .introSection {
+    padding: 40px 0;
+    /* background-color: #007bff; */
+    color:  #303f4e;
+    width: 100%;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Mission Section */
+  .missionSection {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .missionHeading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .missionText {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555
+  }
+  
+  .missionImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Team Section */
+  .teamSection {
+    margin: 40px 0;
+  }
+  
+  .teamHeading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .teamSubheading {
+    font-size: 1.1rem;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  .teamCard {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teamCard img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 15px auto;
+  }
+  
+  /* Values Section */
+  .valuesSection {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .valuesHeading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .valuesCard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .valuesCard h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .valuesCard p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .missionSection {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .missionImage {
+      margin-top: 20px;
+    }
+  
+    .teamCard {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .subheading {
+      font-size: 1rem;
+    }
+  
+    .missionHeading {
+      font-size: 1.8rem;
+    }
+  
+    .missionText {
+      font-size: 1rem;
+    }
+  
+    .teamCard img {
+      height: 120px;
+      width: 120px;
+    }
+  
+    .valuesCard {
+      margin: 10px 0;
+    }
+  
+    .valuesCard h3 {
+      font-size: 1.2rem;
+    }
+  }
+  

@@ -1,0 +1,372 @@
+/* General Styles */
+.homeContainer {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Header Section */
+.header {
+  background-image: url('photos/pic6.jpg'); /* Example header image */
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+  height: 500px;
+  opacity: 0;
+  animation: fadeInHeader 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeInHeader {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.headerOverlay {
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.headerTitle {
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  animation: fadeInTitle 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeInTitle {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.headerSubtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  animation: fadeInSubtitle 2s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInSubtitle {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Main Content Section */
+.mainContent {
+  padding: 40px 20px;
+}
+
+/* Section Styles */
+.section {
+  margin: 40px 0;
+  text-align: left;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.sectionText {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.sectionImage {
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Genres Section */
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.genreCard {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.genreCard:hover {
+  background-color: #53ac50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Reviews Section */
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reviewCard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  color: #555;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reviewCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.reviewCard span {
+  display: block;
+  text-align: right;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Reading Challenge Section */
+.challenge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #648195 0%, #a5d8a5 100%);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  animation: slideIn 0.8s ease-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.challenge:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.challengeIcon {
+  font-size: 3rem;
+  color: #62c97f;
+  transition: transform 0.3s ease;
+}
+
+.challenge p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.challenge:hover .challengeIcon {
+  transform: scale(1.2);
+}
+
+.challenge:hover p {
+  color: #9bb644;
+}
+
+/* Feature Cards */
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cardIcon {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.card h3 {
+  margin-top: 15px;
+  font-size: 1.25rem;
+}
+
+.card p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Footer */
+/* footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+} */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .headerTitle {
+    font-size: 2.5rem;
+  }
+
+  .headerSubtitle {
+    font-size: 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.6rem;
+  }
+
+  .sectionText {
+    font-size: 1rem;
+  }
+
+  .sectionImage {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .cardContainer {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  /* Genres Section */
+  .genres {
+    justify-content: center;
+  }
+
+  .genreCard {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .headerTitle {
+    font-size: 2rem;
+  }
+
+  .headerSubtitle {
+    font-size: 0.9rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.4rem;
+  }
+
+  .sectionText {
+    font-size: 0.95rem;
+  }
+
+  .sectionImage {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .cardContainer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+  }
+
+  .reviewCard {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .headerTitle {
+    font-size: 1.8rem;
+  }
+
+  .headerSubtitle {
+    font-size: 0.85rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.3rem;
+  }
+
+  .sectionText {
+    font-size: 0.9rem;
+
+  }
+
+  .sectionImage {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+}
+

@@ -1,0 +1,63 @@
+/* Light Theme */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navbar.light {
+  background-color: #f8f9fa;
+}
+
+button.light {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+button.light:hover {
+  background-color: #e2e6ea;
+}
+
+.themeButton.light {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.navbar.dark {
+  background-color: #333;
+}
+
+button.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+button.dark:hover {
+  background-color: #555;
+}
+
+.themeButton.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Example additional styles for dark mode */
+.card.dark {
+  background-color: #444;
+  color: #fff;
+}
+
+.card-body.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Customize other elements globally */
+h1, h2, h3, p {
+  transition: white 0.3s ease;
+}

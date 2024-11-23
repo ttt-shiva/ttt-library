@@ -1,0 +1,106 @@
+/* Main container for the Notes and Annotations component */
+.notesContainer {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f7fb;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  /* Title of the section */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Input section for the note */
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .addButton {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: center;
+  }
+  
+  .addButton i {
+    font-size: 18px;
+  }
+  
+  .addButton:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Displaying the list of notes */
+  .notesList {
+    margin-top: 20px;
+  }
+  
+  .noteCard {
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .noteText {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Message when no notes are available */
+  .noNotes {
+    font-size: 16px;
+    color: #888;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .notesContainer {
+      padding: 15px;
+    }
+  
+    .textarea {
+      font-size: 14px;
+    }
+  
+    .addButton {
+      font-size: 14px;
+    }
+  
+    .noteCard {
+      padding: 12px;
+    }
+  
+    .noteText {
+      font-size: 14px;
+    }
+  }
+  
